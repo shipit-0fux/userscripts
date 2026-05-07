@@ -10,8 +10,8 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 ### Multi-site
 
-| Script | Sites | Install Link | Description |
-|--------|-------|--------------|-------------|
+| Script | Install Link | Sites | Description |
+|--------|--------------|-------|-------------|
 | [car-listing-filter.user.js](car-listing-filter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/car-listing-filter.user.js) | AutoTrader, CarFax, CarGurus, CarMax, Cars.com, Carvana, Hertz Car Sales | Hides unwanted makes/models from search results. Edit `blockedModels` array to customize. |
 
 ### Amazon
