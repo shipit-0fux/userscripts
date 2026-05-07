@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Sort by Weighted Rating
 // @namespace    https://github.com/shipit-0fux/userscripts
-// @version      0.7
+// @version      0.8
 // @description  Adds a sort option to Amazon search results using Bayesian weighted ratings instead of raw star averages.
 // @author       zerofux <shipit@zerofux.dev>
 // @match        https://*.amazon.com/s*
@@ -16,7 +16,7 @@
 (function() {
     'use strict';
 
-    const DEBUG = true;
+    const DEBUG = false;
     function log(...args) {
         if (DEBUG) console.log('[Weighted Sort]', ...args);
     }
