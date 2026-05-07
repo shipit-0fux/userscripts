@@ -77,18 +77,21 @@ When you open Amazon search results:
 
 ---
 
-# Example
+## Before & After – See it in action
 
-Instead of this:
+Below is the same Amazon search page for “backpack” – first in Amazon’s default order, then after clicking **Sort by Weighted Rating**.
 
-| Product               | Stars | Reviews |
-| --------------------- | ----- | ------- |
-| Cheap Mystery Charger | 5.0★  | 3       |
-| Trusted Brand Charger | 4.7★  | 18,421  |
+| Amazon’s default order | Sorted by weighted rating |
+|------------------------|---------------------------|
+| <img src="beforesort.png" width="500"> | <img src="aftersort.png" width="500"> |
 
-Amazon might normally rank the 5.0★ item higher.  
-This script usually ranks the trusted product higher because thousands of people liked it.
+**What changed?**
+- Products with many good reviews (e.g., 17k reviews, 4.7★) move to the top.
+- Each product now shows a **Weighted: X.XX★** badge.
+- The page shows a blue info bar with the page average and the `C` value used for the Bayesian calculation.
+- A **Reset Sort** button lets you revert to Amazon’s original order.
 
+> *Note: Your actual results may vary slightly because Amazon changes its HTML layout from time to time. The script adapts automatically.*
 ---
 
 # Features
@@ -132,23 +135,23 @@ Tampermonkey
 Violentmonkey
 Then:
 
-Create a new userscript
-Paste in the script
-Save
-Open Amazon search results
-Click:
-Sort by Weighted Rating
-Why this is useful
+1. Create a new userscript
+2. Paste in the script
+3. Save
+4. Open Amazon search results
+5. Click:
+6. Sort by Weighted Rating
+7. Why this is useful
 
-This script is especially helpful for:
+#### This script is especially helpful for:
+* avoiding fake‑review junk products
+* finding reliable products faster
+* comparing popular products more fairly
+* reducing “review manipulation” effects
 
-avoiding fake‑review junk products
-finding reliable products faster
-comparing popular products more fairly
-reducing “review manipulation” effects
 It won’t make Amazon perfect, but it usually produces much better rankings than raw stars alone.
 
-Limitations
+## Limitations
 
 Amazon changes their website often.
 The script includes fallback logic to survive layout changes, but occasionally Amazon may break parts of it until updated.
