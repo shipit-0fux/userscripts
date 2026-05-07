@@ -40,15 +40,6 @@ A collection of browser userscripts for use with [Tampermonkey](https://www.tamp
 |--------|--------------|-------------|
 | [autozone/order-history-exporter.user.js](autozone/order-history-exporter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/autozone/order-history-exporter.user.js) |  Adds a button to the AutoZone order history page to export all orders to a CSV file. |
 
-### Claude
-
-> These scripts are third-party works by [lugia19](https://greasyfork.org/en/users/lugia19) hosted here for personal use. Install from [GreasyFork](https://greasyfork.org) for the latest versions.
-
-
-| Script | Description |
-|--------|-------------|
-| [claude/usage-tracker.user.js](claude/usage-tracker.user.js) | Tracks claude.ai usage against rate limits. |
-| [claude/fork-conversation.user.js](claude/fork-conversation.user.js) | Adds conversation forking/branching to claude.ai. |
 
 ### Diag.net
 
