@@ -169,4 +169,3 @@ MIT License
 Author
 
 Created by zerofux
-GitHub: shipit-0fux/userscripts
