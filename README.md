@@ -10,20 +10,20 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 ### Multi-site
 
-| Script | Sites | Description |
-|--------|-------|-------------|
+| Script | Sites | Install Link | Description |
+|--------|-------|--------------|-------------|
 | [car-listing-filter.user.js](car-listing-filter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/car-listing-filter.user.js) | AutoTrader, CarFax, CarGurus, CarMax, Cars.com, Carvana, Hertz Car Sales | Hides unwanted makes/models from search results. Edit `blockedModels` array to customize. |
 
 ### Amazon
 
-| Script | Description |
-|--------|-------------|
+| Script | Install Link | Description |
+|--------|--------------|-------------|
 | [amazon/sort-by-weighted-review.user.js](amazon/sort-by-weighted-review.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/amazon/sort-by-weighted-review.user.js) | Adds a sort option to Amazon search results using Bayesian weighted ratings instead of raw star averages. |
 
 ### AutoZone
 
-| Script | Description |
-|--------|-------------|
+| Script | Install Link | Description |
+|--------|--------------|-------------|
 | [autozone/order-history-exporter.user.js](autozone/order-history-exporter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/autozone/order-history-exporter.user.js) |  Adds a button to the AutoZone order history page to export all orders to a CSV file. |
 
 ### Claude
@@ -37,14 +37,14 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 ### Diag.net
 
-| Script | Description |
-|--------|-------------|
+| Script | Install Link | Description |
+|--------|--------------|-------------|
 | [diag.net/unhide-answers.user.js](diag.net/unhide-answers.user.js) |  [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/diag.net/unhide-answers.user.js) | Extracts hidden reply content and displays it in a readable new tab. |
 
 ### Snopes
 
-| Script | Description |
-|--------|-------------|
+| Script | Install Link | Description |
+|--------|--------------|-------------|
 | [snopes/remove-overlay.user.js](snopes/remove-overlay.user.js) |  [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/snopes/remove-overlay.user.js) | Removes ad-block detection overlays that obscure article content. |
 
 ## Customization
