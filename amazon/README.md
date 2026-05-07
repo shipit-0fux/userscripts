@@ -83,7 +83,7 @@ Below is the same Amazon search page for “backpack” – first in Amazon’s 
 
 | Amazon’s default order | Sorted by weighted rating |
 |------------------------|---------------------------|
-| <img src="beforesort.png" width="500"> | <img src="aftersort.png" width="500"> |
+| ![Before sort](beforesort.png) | ![After sort](aftersort.png) |
 
 **What changed?**
 - Products with many good reviews (e.g., 17k reviews, 4.7★) move to the top.
