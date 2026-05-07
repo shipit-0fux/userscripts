@@ -1,14 +1,26 @@
 # userscripts
 
-A collection of browser userscripts for use with [Tampermonkey](https://www.tampermonkey.net/), [Violentmonkey](https://violentmonkey.github.io/), or [Greasemonkey](https://www.greasespot.net/).
+A collection of browser userscripts for use with [Tampermonkey](https://www.tampermonkey.net/), [Violentmonkey](https://violentmonkey.github.io/), [Greasemonkey](https://www.greasespot.net/), or [Userscripts for Safari](https://github.com).
 
 ## Installation
 
-Click any script's **Raw** button on GitHub — your userscript manager will prompt you to install it.
+### For Tampermonkey, Violentmonkey, & Greasemonkey
+1. Click the **[Install]** link in the tables below.
+2. A new tab will open; your manager will automatically detect the script.
+3. Click **Install** (or **Confirm installation**) in the prompted dialog.
+
+### For Userscripts (Safari)
+1. Click the **[Install]** link below to open the raw code in Safari.
+2. Click the **Userscripts extension icon** in your Safari toolbar (or the 'AA' menu on iOS).
+3. Select **"Tap to install"** when the extension detects the script on the page.
+4. *Alternative:* You can download the `.user.js` file directly into your local Userscripts directory.
+
+---
 
 ## Scripts
 
 ### Multi-site
+
 
 | Script | Install Link | Sites | Description |
 |--------|--------------|-------|-------------|
@@ -16,11 +28,13 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 ### Amazon
 
+
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [amazon/sort-by-weighted-review.user.js](amazon/sort-by-weighted-review.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/amazon/sort-by-weighted-review.user.js) | Adds a sort option to Amazon search results using Bayesian weighted ratings instead of raw star averages. |
 
 ### AutoZone
+
 
 | Script | Install Link | Description |
 |--------|--------------|-------------|
@@ -30,6 +44,7 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 > These scripts are third-party works by [lugia19](https://greasyfork.org/en/users/lugia19) hosted here for personal use. Install from [GreasyFork](https://greasyfork.org) for the latest versions.
 
+
 | Script | Description |
 |--------|-------------|
 | [claude/usage-tracker.user.js](claude/usage-tracker.user.js) | Tracks claude.ai usage against rate limits. |
@@ -37,11 +52,13 @@ Click any script's **Raw** button on GitHub — your userscript manager will pro
 
 ### Diag.net
 
+
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [diag.net/unhide-answers.user.js](diag.net/unhide-answers.user.js) |  [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/diag.net/unhide-answers.user.js) | Extracts hidden reply content and displays it in a readable new tab. |
 
 ### Snopes
+
 
 | Script | Install Link | Description |
 |--------|--------------|-------------|
