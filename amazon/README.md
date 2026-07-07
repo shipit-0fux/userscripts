@@ -121,7 +121,8 @@ The script uses this formula:
 Where:
 
 global_mean_rating = average star rating of all products on the current page
-C = average review count of all products on the current page (auto‑calibrated)
+C = median review count of all products on the current page (auto‑calibrated)
+
 In simple terms:
 
 Products with very few reviews get “skeptically adjusted”
