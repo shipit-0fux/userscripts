@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon Sort by Weighted Rating
 // @namespace    https://github.com/shipit-0fux/userscripts
-// @version      0.8
+// @version      0.9
 // @description  Adds a sort option to Amazon search results using Bayesian weighted ratings instead of raw star averages.
 // @author       zerofux <shipit@zerofux.dev>
 // @match        https://*.amazon.com/s*
@@ -277,8 +277,8 @@ function getReviewData(product) {
 
             const globalMean = scored.reduce((sum, p) => sum + p.starRating, 0) / scored.length;
             // C = average review count across scored products (auto-calibrating)
-            const C = scored.reduce((sum, p) => sum + p.count, 0) / scored.length;
-
+			const counts = scored.map(p => p.count).sort((a, b) => a - b);
+			const C = counts[Math.floor(counts.length / 2)];
             log(`Global mean: ${globalMean.toFixed(3)}, C: ${C.toFixed(1)}`);
 
             // Compute Bayesian score for each product
