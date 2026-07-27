@@ -1,66 +1,40 @@
 # userscripts
-
 A collection of browser userscripts for use with [Tampermonkey](https://www.tampermonkey.net/), [Violentmonkey](https://violentmonkey.github.io/), [Greasemonkey](https://www.greasespot.net/), or [Userscripts for Safari](https://github.com).
-
 ## Installation
-
 ### For Tampermonkey, Violentmonkey, & Greasemonkey
 1. Click the **[Install]** link in the tables below.
 2. A new tab will open; your manager will automatically detect the script.
 3. Click **Install** (or **Confirm installation**) in the prompted dialog.
-
 ### For Userscripts (Safari)
 1. Click the **[Install]** link below to open the raw code in Safari.
 2. Click the **Userscripts extension icon** in your Safari toolbar (or the 'AA' menu on iOS).
 3. Select **"Tap to install"** when the extension detects the script on the page.
 4. *Alternative:* You can download the `.user.js` file directly into your local Userscripts directory.
-
 ---
-
 ## Scripts
-
 ### Multi-site
-
-
 | Script | Install Link | Sites | Description |
 |--------|--------------|-------|-------------|
 | [car-listing-filter.user.js](car-listing-filter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/car-listing-filter.user.js) | AutoTrader, CarFax, CarGurus, CarMax, Cars.com, Carvana, Hertz Car Sales | Hides unwanted makes/models from search results. Edit `blockedModels` array to customize. |
-
 ### Amazon
-
-
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [amazon/sort-by-weighted-review.user.js](amazon/sort-by-weighted-review.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/amazon/sort-by-weighted-review.user.js) | Adds a sort option to Amazon search results using Bayesian weighted ratings instead of raw star averages. |
-
+| [amazon-rufus-remover/amazon-remove-rufus-crap.user.js](amazon-rufus-remover/amazon-remove-rufus-crap.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/amazon-rufus-remover/amazon-remove-rufus-crap.user.js) | Removes the Rufus AI assistant panel and restores normal page layout (undoes the ~320px body padding it reserves). |
 ### AutoZone
-
-
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [autozone/order-history-exporter.user.js](autozone/order-history-exporter.user.js) | [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/autozone/order-history-exporter.user.js) |  Adds a button to the AutoZone order history page to export all orders to a CSV file. |
-
-
 ### Diag.net
-
-
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [diag.net/unhide-answers.user.js](diag.net/unhide-answers.user.js) |  [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/diag.net/unhide-answers.user.js) | Extracts hidden reply content and displays it in a readable new tab. |
-
 ### Snopes
-
-
 | Script | Install Link | Description |
 |--------|--------------|-------------|
 | [snopes/remove-overlay.user.js](snopes/remove-overlay.user.js) |  [Install](https://raw.githubusercontent.com/shipit-0fux/userscripts/main/snopes/remove-overlay.user.js) | Removes ad-block detection overlays that obscure article content. |
-
 ## Customization
-
 **car-listing-filter**: Edit the `blockedModels` array near the top of the script to add or remove makes/models. Set `verboseLogging = false` to silence console output.
-
 **autozone/order-history-exporter**: Adjust the `year >= 2020` lower bound in `fetchAndProcessOrders()` to control how far back the export goes.
-
 ## License
-
 Scripts I authored are [MIT](LICENSE). Third-party scripts retain their original licenses (see file headers).
